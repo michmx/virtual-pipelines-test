@@ -35,8 +35,8 @@ jobs:
         uses: actions/checkout@v2
       - name: download binary
         uses: actions/download-artifact@v2
-          with:
-            name: skim6.18.04
+        with:
+          name: skim6.18.04
       - name: build
         run: |
           chmod +x skim
