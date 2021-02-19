@@ -54,10 +54,10 @@ jobs:
           name: skim_ggH
       - name: plot
         run: |
-          python histograms.py skim_ggH.root ggH hist_ggH.root
+          python histograms.py skim_ggH.root ggH hist_ggH.pdf
       - name: upload plot
         uses: actions/upload-artifact@v2
         with: 
           name: histograms
-          path: hist_ggH.root
+          path: hist_ggH.pdf
 
