@@ -76,7 +76,7 @@ jobs:
           name: histograms
       - name: produce plot
         run: |
-          bash plot.sh histograms.root plots
+          bash plot.sh hist_ggH.root plots
       - name: upload plots
         uses: actions/upload-artifact@v2
         with:
