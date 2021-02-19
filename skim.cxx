@@ -8,17 +8,17 @@
  * the decay of a Higgs boson.
  */
 
-#include "ROOT/RDataFrame.hxx"
-#include "ROOT/RVec.hxx"
-
-#include "Math/Vector4D.h"
-#include "TStopwatch.h"
+#include <stdlib.h>
 
 #include <cmath>
 #include <iostream>
-#include <stdlib.h>
 #include <string>
 #include <vector>
+
+#include "Math/Vector4D.h"
+#include "ROOT/RDataFrame.hxx"
+#include "ROOT/RVec.hxx"
+#include "TStopwatch.h"
 
 /*
  * Perform a selection on the minimal requirements of an event
